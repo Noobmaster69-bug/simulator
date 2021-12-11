@@ -1,6 +1,4 @@
 import "./App.css";
-import CustomChart from "./react-components/chart/chart";
-import { getTimelineData } from "./react-components/chart/dummyData";
 import { useEffect, useRef, useState } from "react";
 import ReactApexChart from "react-apexcharts";
 import io from "socket.io-client";
