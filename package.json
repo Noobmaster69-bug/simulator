@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js & (cd ChartExample&&npm start) & (node-red)"
+    "start": "nodemon index.js & (cd Chart&&npm start) & (node-red)"
   },
   "author": "",
   "license": "ISC",
