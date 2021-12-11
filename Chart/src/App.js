@@ -175,7 +175,7 @@ function App() {
   };
   useEffect(() => {
     if (instance.current === null) {
-      instance.current = io.connect("http://localhost:4001");
+      instance.current = io.connect("http://3.0.102.91:4001");
     }
     const client = instance.current;
     client.on("connect", () => {
